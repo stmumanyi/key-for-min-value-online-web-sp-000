@@ -13,7 +13,7 @@ def key_for_min_value(name_hash)
      current_val = value
      current_keey = key
   else 
-    if key_for_min_value({})
+    if key_for_min_value(name_hash) == {}
       return nil 
     end
    end
